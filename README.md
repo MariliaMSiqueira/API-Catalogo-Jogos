@@ -3,9 +3,9 @@
 ------------------
 <p align="center"> <img src=https://github.com/MariliaMSiqueira/API-Catalogo-Jogos/blob/master/Catalogo-Api-Jogos.gif></p align="center">
 
-   A aula ministrada pelo DEV <strong>Thiago Campos</strong>, lá da plataforma maravilhosa<strong> [Digital Innovation One](https://digitalinnovation.one/sign-in)</strong>, propôs a elaboração de um projeto API voltado ao público gamer. 
+&nbsp;&nbsp;A aula ministrada pelo DEV <strong>Thiago Campos</strong>, lá da plataforma maravilhosa<strong> [Digital Innovation One](https://digitalinnovation.one/sign-in)</strong>, propôs a elaboração de um projeto API voltado ao público gamer. 
 
-Nesta aplicação, é possível:
+&nbsp;&nbsp;Nesta aplicação, é possível:
 
 - [x] Inserir novos jogos, com o POST;
 
@@ -19,7 +19,7 @@ Nesta aplicação, é possível:
 
 - [x] Deletar jogos, com o DELETE.
 
-&nbsp;Para que seja possível inserir novos jogos, é solicitado o Nome, Produtora e o Preço dos jogos. Desta forma, o struct Guid criará um identificador global único que acarretada na ID do game.
+&nbsp;&nbsp;Para que seja possível inserir novos jogos, é solicitado o Nome, Produtora e o Preço dos jogos. Desta forma, o struct Guid criará um identificador global único que acarretada na ID do game.
 
 ----------------------
 
@@ -27,13 +27,13 @@ Nesta aplicação, é possível:
 
 ---------------------
 
-   Primeiramente, gostaria de ressaltar o quão enriquecedor tendo sido  o término de cada projeto. Sinceramente, há 3 meses eu não tinha conhecimento para diferenciar o VS Code do Visual Studio, eu realmente nunca tinha tido contato. 
+&nbsp;&nbsp;Primeiramente, gostaria de ressaltar o quão enriquecedor tendo sido  o término de cada projeto. Sinceramente, há 3 meses eu não tinha conhecimento para diferenciar o VS Code do Visual Studio, eu realmente nunca tinha tido contato. 
 
-   A cada "Live Coding" estou me familiarizando com as plataformas,  o uso do terminal, como funciona as exceptions, como integrar um BD numa API, nas diferentes funcionalidades que cada linguagem tem a nos proporcionar e principalmente, na forma de estruturar os pensamentos a fim de que a confusão não transpareça no código da aplicação.
+&nbsp;&nbsp;A cada "Live Coding" estou me familiarizando com as plataformas,  o uso do terminal, como funciona as exceptions, como integrar um BD numa API, nas diferentes funcionalidades que cada linguagem tem a nos proporcionar e principalmente, na forma de estruturar os pensamentos a fim de que a confusão não transpareça no código da aplicação.
 
-  Em suma, é extremamente encantador/fascinante perceber que a cada dia eu sigo evoluindo, para quem não sabia o que significava "dar um commit", hoje já sou capaz de manipular o GitHub de maneira a atender meus requisitos. 
+&nbsp;&nbsp;Em suma, é extremamente encantador/fascinante perceber que a cada dia eu sigo evoluindo, para quem não sabia o que significava "dar um commit", hoje já sou capaz de manipular o GitHub de maneira a atender meus requisitos. 
 
-<strong>O importante é ser teimosa e NUNCA desistir. É desafiador hoje, porém, a cada projeto concluído o repertório se expande de maneira exponencial!</strong>
+&nbsp;&nbsp;<strong>O importante é ser teimosa e NUNCA desistir. É desafiador hoje, porém, a cada projeto concluído o repertório se expande de maneira exponencial!</strong>
 
-Essa é a magia da frase : <strong>"<u>Apaixone-se pelo processo de se tornar a sua melhor versão</u>"</strong>
+<h3 align="center">Essa é a magia da frase : <strong>"<u>Apaixone-se pelo processo de se tornar a sua melhor versão</u>"</strong></h3>
 
