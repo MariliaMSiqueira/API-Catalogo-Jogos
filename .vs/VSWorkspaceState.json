@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Controllers\\V1",
+    "\\Entities",
+    "\\Exceptions",
+    "\\InputModel",
+    "\\Properties",
+    "\\Repositories",
+    "\\Services"
+  ],
+  "SelectedNode": "\\ApiCatalogoJogos.csproj",
+  "PreviewInSolutionExplorer": false
+}

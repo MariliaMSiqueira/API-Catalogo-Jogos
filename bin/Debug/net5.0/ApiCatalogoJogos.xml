@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCatalogoJogos</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.Obter(System.Int32,System.Int32)">
+            <summary>
+            Busque todos os jogos de forma paginada.
+            </summary>
+            <remarks>
+            É necessário informar a paginação
+            </remarks>
+            <param name="pagina">Indique qual página está sendo consultada. Mínimo 1</param>
+            <param name="quantidade">Indique a quantidade de registros por página. Min.: 1 | Max.: 50</param>
+            <response code="200">Retorna a lista de jogos</response>
+            <response code="204">Não há jogos inseridos</response>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.Obter(System.Guid)">
+            <summary>
+            Busque um jogo pelo seu ID.
+            </summary>
+            <param name="idJogo">Indique o ID do jogo requerido</param>
+            <response code ="200">Retorna o jogo filtrado</response>
+            <response code ="204">Não há jogo com este ID.</response>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.InserirJogo(ApiCatalogoJogos.InputModel.JogoInputModel)">
+            <summary>
+            Insira um novo jogo.
+            </summary>
+            <param name="jogoInputModel">Preencha os dados solicitados</param>
+            <response code="200">Inserido com sucesso.</response>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.AtualizarJogo(System.Guid,ApiCatalogoJogos.InputModel.JogoInputModel)">
+            <summary>
+            Atualize as informações de um jogo.
+            </summary>
+            <param name="idJogo">Insira o ID do jogo.</param>
+            <response code="200"> Atualizado com sucesso.</response>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.AtualizarJogo(System.Guid,System.Double)">
+            <summary>
+            Atualize o preço de um jogo.
+            </summary>
+            <param name="idJogo">Insira o ID do jogo.</param>
+            <param name="preco">Informe o novo valor.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.ApagarJogo(System.Guid)">
+            <summary>
+            Delete um jogo
+            </summary>
+            <param name="idJogo">Insira o ID do jogo</param>
+            <response code="200">Excluído com sucesso.</response>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

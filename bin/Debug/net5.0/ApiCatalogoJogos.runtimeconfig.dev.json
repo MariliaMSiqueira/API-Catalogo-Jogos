@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Spartan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Spartan\\.nuget\\packages"
+    ]
+  }
+}
